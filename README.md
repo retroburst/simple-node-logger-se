@@ -1,7 +1,7 @@
 # Simple Node Logger
 
-Based on the work of @darrylwest - https://github.com/darrylwest/simple-node-logger. 
-Modified to work with modern Node.js versions (24.x+), removed calls to util.isDate etc, updated dependencies.
+Based on the work of [@darrylwest](https://github.com/darrylwest) - https://github.com/darrylwest/simple-node-logger. 
+Modified to work with modern Node.js versions (24.x+ - removed calls to util.isDate etc, updated dependencies).
 
 A simple multi-level logger for console, file, and rolling file appenders.  Features include:
 
