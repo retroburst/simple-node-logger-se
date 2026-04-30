@@ -1,4 +1,4 @@
-# simple-node-logger-se-se
+# simple-node-logger-se
 
 Based on the work of [@darrylwest](https://github.com/darrylwest) - https://github.com/darrylwest/simple-node-logger-se. 
 Modified to work with modern Node.js versions (24.x+ - removed calls to util.isDate etc, updated dependencies).
