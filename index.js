@@ -1,5 +1,5 @@
 
-/** darryl.west@raincitysoftware.com **/
+/** originally by darryl.west@raincitysoftware.com **/
 
 module.exports = require('./lib/SimpleLogger');
 module.exports.AbstractAppender = require('./lib/AbstractAppender');
@@ -10,9 +10,3 @@ module.exports.appenders = {
     FileAppender:require('./lib/FileAppender'),
     RollingFileAppender:require('./lib/RollingFileAppender')
 };
-
-module.exports.mocks = {
-    MockAppender:require('./test/mocks/MockAppender'),
-    MockLogger:require('./test/mocks/MockLogger')
-};
-
