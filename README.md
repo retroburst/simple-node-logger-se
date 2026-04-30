@@ -1,16 +1,7 @@
 # Simple Node Logger
-```
- __ _                 _            __          _          __                             
-/ _(_)_ __ ___  _ __ | | ___    /\ \ \___   __| | ___    / /  ___   __ _  __ _  ___ _ __ 
-\ \| | '_ ` _ \| '_ \| |/ _ \  /  \/ / _ \ / _` |/ _ \  / /  / _ \ / _` |/ _` |/ _ \ '__|
-_\ \ | | | | | | |_) | |  __/ / /\  / (_) | (_| |  __/ / /__| (_) | (_| | (_| |  __/ |   
-\__/_|_| |_| |_| .__/|_|\___| \_\ \/ \___/ \__,_|\___| \____/\___/ \__, |\__, |\___|_|   
-               |_|                                                 |___/ |___/           
-```
 
-[![NPM version](https://badge.fury.io/js/simple-node-logger.svg)](http://badge.fury.io/js/simple-node-logger) [![Build Status](https://travis-ci.org/darrylwest/simple-node-logger.svg?branch=master)](https://travis-ci.org/darrylwest/simple-node-logger) [![Dependency Status](https://david-dm.org/darrylwest/simple-node-logger.svg)](https://david-dm.org/darrylwest/simple-node-logger)
-
-Based on the work of darrylwest - https://github.com/darrylwest/simple-node-logger
+Based on the work of @darrylwest - https://github.com/darrylwest/simple-node-logger. 
+Modified to work with modern Node.js versions (24.x+), removed calls to util.isDate etc, updated dependencies.
 
 A simple multi-level logger for console, file, and rolling file appenders.  Features include:
 

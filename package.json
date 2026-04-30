@@ -1,6 +1,6 @@
 {
   "name": "simple-node-logger-se",
-  "version": "21.8.13",
+  "version": "21.8.14",
   "description": "A node console and file logger suitable for small, medium and large production projects. Based on the work of darrylwest (https://github.com/darrylwest/simple-node-logger).",
   "main": "index.js",
   "repository": {
