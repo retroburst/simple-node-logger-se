@@ -10,6 +10,8 @@ _\ \ | | | | | | |_) | |  __/ / /\  / (_) | (_| |  __/ / /__| (_) | (_| | (_| | 
 
 [![NPM version](https://badge.fury.io/js/simple-node-logger.svg)](http://badge.fury.io/js/simple-node-logger) [![Build Status](https://travis-ci.org/darrylwest/simple-node-logger.svg?branch=master)](https://travis-ci.org/darrylwest/simple-node-logger) [![Dependency Status](https://david-dm.org/darrylwest/simple-node-logger.svg)](https://david-dm.org/darrylwest/simple-node-logger)
 
+Based on the work of darrylwest - https://github.com/darrylwest/simple-node-logger
+
 A simple multi-level logger for console, file, and rolling file appenders.  Features include:
 
 - levels: trace, debug, info, warn, error and fatal levels (plus all and off)
@@ -258,12 +260,3 @@ MockLogger extends Logger and uses MockAppender to capture log entries.
 ## License
 
 Apache 2.0
-
-## Recent updates...
-
-* 0.93.29: when an Error object is logged, the message and stack trace are sent to log targets
-* 0.93.30: fixed example/category-logger.js and examples/domain-logger.js to not double-log
-* 0.93.31: added thisArg to methods in AbstractAppender to enable proper binding and full override when extending
-
-- - -
-<p><small><em>Copyright © 2014-2019, rain city software | Version 18.12.24</em></small></p>
